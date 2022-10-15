@@ -42,6 +42,9 @@
   .two-col-right {
     width: 50%;
   }
+  .prod-2-pad {
+    padding-top: 3em;
+  }
   /* Mobile */
   @media only screen and (max-width: 599.8px) {
     .main-table {
@@ -65,7 +68,13 @@
       padding-right: unset;
     }
     .product-img {
-      width: 260px;
+      width: 270px;
+    }
+    .product-btn {
+      text-align: center;
+    }
+    .prod-2-pad {
+      padding-top: .25em;
     }
   }
   </style>
@@ -248,6 +257,7 @@
                   role="presentation"
                   border="0"
                   align="center">
+                  <!-- ======> Product 1 <====== -->
                   <tr>
                     <td>
                       <table
@@ -281,13 +291,56 @@
                           </td>
                         </tr>
                         <tr>
-                          <td style="padding-top: 1em;">
+                          <td class="product-btn" style="padding-top: 1em;">
                             <a href="#"><img src="img/button.png" alt="Button" style="max-width: 160px;"></a>
                           </td>
                         </tr>
                       </table>
                     </td>
                   </tr>
+                  <!-- ======> / Product 1 <====== -->
+                  <!-- ======> Product 2 <====== -->
+                  <tr>
+                    <td class="prod-2-pad">
+                      <table
+                        class="two-col-left"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        border="0"
+                        align="left">
+                        <tr>
+                          <td align="center">
+                            <a href="#"><img class="product-img" src="img/oculus-headphones.jpeg" alt="Oculus Quest In-Ear Headphones" style="max-width: 100%;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="two-col-right"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        border="0"
+                        align="right">
+                        <tr>
+                          <td>
+                            <h3 style="font-size: 28px; padding-right: 3px; padding-top: .5em;">Oculus Quest In-Ear Headphones</h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 1em;">
+                            <p style="font-size: 15px; line-height: 22px; color: #666666;">These earphones are designed with flexible tips to gently seal inside your ear and minimize distractions from outside VR.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="product-btn" style="padding-top: 1em;">
+                            <a href="#"><img src="img/button.png" alt="Button" style="max-width: 160px;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- ======> / Product 2 <====== -->
                 </table>
               </td>
             </tr>
