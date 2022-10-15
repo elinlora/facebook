@@ -36,6 +36,12 @@
   .hero-heading {
     font-size: 40px;
   }
+  .two-col-left {
+    width: 45%;
+  }
+  .two-col-right {
+    width: 50%;
+  }
   /* Mobile */
   @media only screen and (max-width: 599.8px) {
     .main-table {
@@ -46,6 +52,20 @@
     }
     .hero-heading {
       font-size: 25px;
+    }
+    .two-col-left,
+    .two-col-right {
+      width: 100%;
+    }
+    .two-col-right h3,
+    .two-col-right p {
+      text-align: center;
+    }
+    .two-col-right h3 {
+      padding-right: unset;
+    }
+    .product-img {
+      width: 260px;
     }
   }
   </style>
@@ -218,6 +238,60 @@
               </td>
             </tr>
             <!-- / Social Proof Row -->
+            <!-- Products Row -->
+            <tr>
+              <td bgcolor="#ffffff" style="padding-top: 3em;">
+                <table
+                  class="container"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  border="0"
+                  align="center">
+                  <tr>
+                    <td>
+                      <table
+                        class="two-col-left"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        border="0"
+                        align="left">
+                        <tr>
+                          <td align="center">
+                            <a href="#"><img class="product-img" src="img/oculus-case.png" alt="Oculus Quest Travel Case" style="max-width: 100%;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="two-col-right"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        border="0"
+                        align="right">
+                        <tr>
+                          <td>
+                            <h3 style="font-size: 28px; padding-right: 10px; padding-top: .5em;">Oculus Quest Travel Case</h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 1em;">
+                            <p style="font-size: 15px; line-height: 22px; color: #666666;">A home for your headset, controllers, and charging accessories that offers lightweight convenience and sturdy protection.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 1em;">
+                            <a href="#"><img src="img/button.png" alt="Button" style="max-width: 160px;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- / Products Row -->
         </table>
         <!-- / Main Table -->
         </td>
