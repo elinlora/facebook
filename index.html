@@ -4,9 +4,131 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    border: 0;
+  }
+  .main-table {
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  }
+  .container {
+    width: 85%;
+  }
+  .hero-heading {
+    font-size: 40px;
+  }
+  /* Mobile */
+  @media only screen and (max-width: 599.8px) {
+    .main-table {
+      width: 100%;
+    }
+    .container {
+      width: 95%;
+    }
+    .hero-heading {
+      font-size: 25px;
+    }
+  }
+  </style>
+  <title>Facebook</title>
 </head>
-<body>
-  
+<body style="margin: 0; padding: 0; min-height: 100vh; min-width: 100%; background-color: #f7f7f7;">
+  <!-- ======> Email Start <====== -->
+  <table width="100%" role="presentation" cellspacing="0" cellpadding="0" align="center" border="0" bgcolor="#f7f7f7">
+    <!-- Main Table Row -->
+      <tr>
+        <td>
+        <!-- Main Table -->
+        <table
+          class="main-table"
+          cellspacing="0"
+          cellpadding="0"
+          role="presentation"
+          border="0"
+          align="center">
+            <!-- Header Row -->
+            <tr>
+              <td bgcolor="#fff" style="padding: .6em 0 1.5em;">
+                <table
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  border="0"
+                  align="center">
+                  <tr>
+                    <td align="center">
+                      <a href="#" style="color: #666666; font-size: 14px;">View in browser</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding-top: 1.5em;">
+                      <a href="#"><img src="img/header-logo.png" alt="Oculus" style="max-width: 70px;"></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- / Header Row -->
+            <!-- Hero Top Row -->
+            <tr>
+              <td bgcolor="#ffffff" style="">
+                <table
+                  class="container"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  border="0"
+                  align="center">
+                  <tr>
+                    <td align="center">
+                      <a href="#"><img src="img/hero-1.jpeg" alt="Oculus Quest" style="max-width: 100%;"></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding-top: 12px;">
+                      <p style="font-size: 15px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">Oculus Quest</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding-top: 10px;">
+                      <h2 class="hero-heading">No PC. No wires. No limits.</h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding: ;">
+                      <p style="font-size: 15px; color: #666666; line-height: 22px;">Oculus Rift S is our most advanced PC-powered headset. Get the power to move in any direction throughout your playspace without any external sensors. Available today for $399*.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- /Hero Top Row -->
+        </table>
+        <!-- / Main Table -->
+        </td>
+      </tr>
+      <!-- / Main Table Row -->
+    </table>
+  <!-- ======> Email End <====== -->
 </body>
 </html>
